@@ -3,6 +3,19 @@
     "displayName": "Zima Blue Theme",
     "description": "Good theme",
     "version": "0.0.1",
+    "publisher": "RafaelMenegheti",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rafamenegheti/zima-blue-vscode-theme"
+    },
+    "keywords": [
+        "theme",
+        "dark theme",
+        "zima",
+        "blue",
+        "rafael menegheti",
+        "rafael"
+    ],
     "engines": {
         "vscode": "^1.63.0"
     },

@@ -1,13 +1,9 @@
 # README
 ## This is the README for your extension "dark-visualize"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+this was made for my own use but i'm sharing it with anyone who wants to, 
+i don't recommend using this theme as it's still under development, but if you're using it 
+and find something i can improve by doing let me know.
+### Reach Me
+* [Twitter](https://twitter.com/rafaelmenegheti?lang=da)
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
