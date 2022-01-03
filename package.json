@@ -4,6 +4,7 @@
     "description": "Good theme",
     "version": "0.0.2",
     "publisher": "RafaelMenegheti",
+    "icon": "assets/images/zimaLogo",
     "repository": {
         "type": "git",
         "url": "https://github.com/rafamenegheti/zima-blue-vscode-theme"
