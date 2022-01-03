@@ -1,5 +1,4 @@
-# README
-## This is the README for your extension "dark-visualize"
+## Zima Blue Theme"
 
 this was made for my own use but i'm sharing it with anyone who wants to, 
 i don't recommend using this theme as it's still under development, but if you're using it 
