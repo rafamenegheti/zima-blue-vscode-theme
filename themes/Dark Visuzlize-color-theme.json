@@ -136,7 +136,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -226,7 +226,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#ffee32"
+				"foreground": "#F3F59E"
 			}
 		},
 		{
@@ -760,8 +760,73 @@
 			"settings": {
 				"foreground": "#82AAFF"
 			}
-		}
+		},
+		{
+			"name": "Function parameters",
+			"scope": [
+				"variable.parameter.ts",
+
+
+			],
+			"settings": {
+				"foreground": "#bedbe9"
+			}
+		},
+		{
+			"name": "KeyWord controll",
+			"scope": [
+				"keyword.control.conditional.ts",
+				"meta.block.ts",
+				"meta.method.declaration.ts",
+				"meta.class.ts",
+				"source.ts"
+
+
+			],
+			"settings": {
+				"foreground": "#0d6ec9"
+			}
+		},
+
+		{
+			"name": "Wtriting",
+			"scope": [
+				"meta.object-literal.key.ts",
+				"meta.object.member.ts",
+				"meta.objectliteral.ts",
+				"meta.block.ts",
+				"meta.method.declaration.ts",
+				"meta.class.ts",
+				"source.ts"
+
+
+			],
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+
+		{
+			"name": "Wtriting",
+			"scope": [
+				"support.type.primitive.ts",
+				"meta.type.annotation.ts",
+				"meta.parameters.ts",
+				"meta.method.declaration.ts",
+				"meta.class.ts",
+				"source.ts"
+
+
+			],
+			"settings": {
+				"foreground": "#F3F59E"
+			}
+		},
+
 	]
 }
+
+
+
 
 
