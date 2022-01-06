@@ -31,7 +31,6 @@
 		"editorGroup.dropBackground": "#390ca3a9",
 		"editorGroupHeader.tabsBackground": "#071a27",
 		"tab.inactiveBackground": "#00121f",
-
 		"editorGroupHeader.tabsBorder": "#1e0852a9",
 		//scrollbarSlider
 		// "scrollbarSlider.background": "#ff0000",
@@ -52,20 +51,10 @@
 		"activityBar.background": "#051a30",
 		"activityBar.activeBackground": "#032135",
 		"activityBar.foreground": "#1EB4E9",
-
-
 		"editorWidget.background": "#172121",
-
 		"editorSuggestWidget.background": "#172121",
-
 		"panel.background": "#0a2231",
-
 		"notifications.background": "#1EB4E9",
-
-
-
-
-
 	},
 	"tokenColors": [
 		{
@@ -123,22 +112,34 @@
 			"name": "Import",
 			"scope": [
 				"keyword.control.import.ts",
+				"keyword.control.import.tsx",
 				"meta.import.ts",
 				"source.ts"
 			],
 			"settings": {
-				"foreground": "#88e2b5",
+				"foreground": "#00FF80",
 			}
 		},
 		{
 			"name": "from do Import",
 			"scope": [
 				"keyword.control.from.ts",
+				"keyword.control.from.tsx",
 				"meta.import.ts",
 				"source.ts"
 			],
 			"settings": {
-				"foreground": "#88e2b5",
+				"foreground": "#00FF80",
+			}
+		},
+		{
+			"name": "export",
+			"scope": [
+				"keyword.control.export.ts",
+				"keyword.control.export.tsx"
+			],
+			"settings": {
+				"foreground": "#00FF80",
 			}
 		},
 		{
@@ -229,7 +230,8 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+				"meta.group.braces.curly constant.other.object.key.tsx string.unquoted.label.tsx"
 			],
 			"settings": {
 				"foreground": "#f3f59e"
@@ -257,7 +259,7 @@
 				"support.type"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#888edaa6"
 			}
 		},
 		{
@@ -271,7 +273,7 @@
 				"source.postcss support.type.property-name"
 			],
 			"settings": {
-				"foreground": "#B2CCD6"
+				"foreground": "#359ac2"
 			}
 		},
 		{
@@ -279,7 +281,10 @@
 			"scope": [
 				"entity.name.module.js",
 				"variable.import.parameter.js",
-				"variable.other.class.js"
+				"variable.other.class.js",
+				"entity.name.module.tsx",
+				"variable.import.parameter.tsx",
+				"variable.other.class.tsx"
 			],
 			"settings": {
 				"foreground": "#FF5370"
@@ -298,7 +303,8 @@
 		{
 			"name": "entity.name.method.js",
 			"scope": [
-				"entity.name.method.js"
+				"entity.name.method.js",
+				"entity.name.method.tsx"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -309,6 +315,7 @@
 			"name": "meta.method.js",
 			"scope": [
 				"meta.class-method.js entity.name.function.js",
+				"meta.class-method.tsx entity.name.function.tsx",
 				"variable.function.constructor"
 			],
 			"settings": {
@@ -332,7 +339,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+				"foreground": "#B6CCFE"
 			}
 		},
 		{
@@ -341,7 +348,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#B6CCFE"
 			}
 		},
 		{
@@ -413,7 +420,9 @@
 			"name": "Decorators",
 			"scope": [
 				"tag.decorator.js entity.name.tag.js",
-				"tag.decorator.js punctuation.definition.tag.js"
+				"tag.decorator.js punctuation.definition.tag.js",
+				"tag.decorator.js entity.name.tag.tsx",
+				"tag.decorator.js punctuation.definition.tag.tsx"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -423,7 +432,8 @@
 		{
 			"name": "ES7 Bind Operator",
 			"scope": [
-				"source.js constant.other.object.key.js string.unquoted.label.js"
+				"source.js constant.other.object.key.js string.unquoted.label.js",
+				"source.tsx constant.other.object.key.tsx string.unquoted.label.tsx"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -445,7 +455,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#B6CCFE"
 			}
 		},
 		{
@@ -454,7 +464,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#ada7ff"
 			}
 		},
 		{
@@ -638,7 +648,7 @@
 				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#B6CCFE"
 			}
 		},
 		{
@@ -707,7 +717,6 @@
 				"foreground": "#EEFFFF"
 			}
 		},
-
 		{
 			"name": "Defination ponctuation blocks",
 			"scope": [
@@ -748,7 +757,7 @@
 				"source.tsx"
 			],
 			"settings": {
-				"foreground": "#d146a7"
+				"foreground": "#eb45b9"
 			}
 		},
 		{
@@ -756,7 +765,8 @@
 			"scope": [
 				"storage.type.function.js",
 				"meta.function.expression.js",
-
+				"storage.type.function.tsx",
+				"meta.function.expression.tsx",
 			],
 			"settings": {
 				"foreground": "#82AAFF"
@@ -766,8 +776,6 @@
 			"name": "Function parameters",
 			"scope": [
 				"variable.parameter.ts",
-
-
 			],
 			"settings": {
 				"foreground": "#bedbe9"
@@ -781,14 +789,11 @@
 				"meta.method.declaration.ts",
 				"meta.class.ts",
 				"source.ts"
-
-
 			],
 			"settings": {
 				"foreground": "#0d6ec9"
 			}
 		},
-
 		{
 			"name": "Wtriting",
 			"scope": [
@@ -799,14 +804,11 @@
 				"meta.method.declaration.ts",
 				"meta.class.ts",
 				"source.ts"
-
-
 			],
 			"settings": {
 				"foreground": "#ffffff"
 			}
 		},
-
 		{
 			"name": "Wtriting",
 			"scope": [
@@ -816,19 +818,22 @@
 				"meta.method.declaration.ts",
 				"meta.class.ts",
 				"source.ts"
-
-
 			],
 			"settings": {
 				"foreground": "#F3F59E"
 			}
 		},
-
-
+		{
+			"name": "Wtriting",
+			"scope": [
+				"support.class.component.tsx",
+				"entity.name.tag.tsx",
+				"meta.tag.tsx",
+				"meta.function.tsx",
+			],
+			"settings": {
+				"foreground": "#b6ccfe"
+			}
+		},
 	]
 }
-
-
-
-
-
