@@ -120,6 +120,28 @@
 			}
 		},
 		{
+			"name": "Import",
+			"scope": [
+				"keyword.control.import.ts",
+				"meta.import.ts",
+				"source.ts"
+			],
+			"settings": {
+				"foreground": "#88e2b5",
+			}
+		},
+		{
+			"name": "from do Import",
+			"scope": [
+				"keyword.control.from.ts",
+				"meta.import.ts",
+				"source.ts"
+			],
+			"settings": {
+				"foreground": "#88e2b5",
+			}
+		},
+		{
 			"name": "Operator, Misc",
 			"scope": [
 				"keyword.control",
@@ -685,28 +707,7 @@
 				"foreground": "#EEFFFF"
 			}
 		},
-		{
-			"name": "Import",
-			"scope": [
-				"keyword.control.import.tsx",
-				"meta.import.tsx",
-				"source.tsx",
-				"keyword.control.from.tsx",
-			],
-			"settings": {
-				"foreground": "#00ff80",
-			}
-		},
-		{
-			"name": "from do Import",
-			"scope": [
-				"source.tsx",
-				"keyword.control.from.tsx",
-			],
-			"settings": {
-				"foreground": "#ffffff",
-			}
-		},
+
 		{
 			"name": "Defination ponctuation blocks",
 			"scope": [
@@ -822,6 +823,7 @@
 				"foreground": "#F3F59E"
 			}
 		},
+
 
 	]
 }
